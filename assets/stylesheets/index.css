@@ -1,0 +1,65 @@
+body, header, h1, footer, ul, li, a, span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+ul, li {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: black;
+  min-height: 100%;
+  display: flex;
+}
+
+.game-index {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.header {
+  color: silver;
+  font-size: 48px;
+  text-align: center;
+  margin: 30px 0px;
+  flex: 2;
+}
+
+.game-display {
+  margin: 0 auto;
+  width: 640px;
+  height: 480px;
+  flex: 9;
+}
+
+.footer {
+  flex: 1;
+  margin-top: 30px;
+  justify-content: flex-start;
+}
+
+.footer-links {
+  display: flex;
+  color: silver;
+}
+
+.footer-links li {
+  margin: 0px 10px;
+}
