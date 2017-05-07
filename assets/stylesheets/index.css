@@ -23,6 +23,7 @@ html {
 body {
   background: black;
   min-height: 100%;
+  font-family: 'Orbitron', sans-serif;
   display: flex;
 }
 
@@ -40,6 +41,10 @@ body {
   text-align: center;
   margin: 30px 0px;
   flex: 2;
+}
+
+.header h1 {
+  padding: 10px;
 }
 
 .game-display {
@@ -62,4 +67,10 @@ body {
 
 .footer-links li {
   margin: 0px 10px;
+}
+
+.footer a:hover {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
 }
