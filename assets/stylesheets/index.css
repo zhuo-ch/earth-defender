@@ -54,6 +54,10 @@ body {
   flex: 9;
 }
 
+.game-display:hover {
+  cursor: crosshair;
+}
+
 .footer {
   flex: 1;
   margin-top: 20px;
