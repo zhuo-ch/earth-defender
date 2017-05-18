@@ -7,6 +7,7 @@
     <script src="https://use.fontawesome.com/32ebe055b2.js"></script>
     <link href="assets/stylesheets/index.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+      <link rel="icon" type="image/png" href="assets/images/Rocket-fav.png" />
     <script type="text/javascript" src="lib/bundle.js"></script>
   </head>
   <body>
@@ -14,9 +15,29 @@
       <header class="header">
         <h1>Earth Defender</h1>
       </header>
-      <section class="game-display">
-        <canvas id="game" width="640" height="480"></canvas>
+
+      <section class="main-display">
+        <article class="controller-display">
+          <ul class='controls-list'>
+            <li><article class='key-button'><h3>A</h3></article>    Rocket</li>
+            <li><article class='key-button'><h3>S</h3></article>    Cluster Bombs</li>
+            <li><article class='key-button'><h3>D</h3></article>    Gravity Gun</li>
+            <li><article class='key-button'><h3>F</h3></article>    Laser ( hold )</li>
+          </ul>
+        </article>
+
+        <article class="game-display">
+          <canvas id="game" width="640" height="480"></canvas>
+        </article>
+
+        <article class="right-display">
+          <p>Shoot down the incoming missiles before they hit the ground!!</p>
+          <p>Use your mouse to shoot.</p>
+          <p>Remember, missiles take time to reach their destination.</p>
+          <p>The Laser Gun will follow your pointer if you hold down the left mouse button.</p>
+        </article>
       </section>
+
       <footer class="footer">
         <ul class="footer-links">
           <li><a href="https://zhuo-ch.github.io/" class="copyright"><span class="label">&copy; Zhuo Chen</span></a></li>

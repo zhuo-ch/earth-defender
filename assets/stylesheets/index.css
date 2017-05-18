@@ -47,15 +47,53 @@ body {
   padding: 10px;
 }
 
+.main-display {
+  display: flex;
+  justify-content: space-between;
+  flex: 11;
+}
+
+.controller-display {
+  width: 20%;
+  margin: 20px;
+}
+
+.controls-list {
+  color: silver;
+}
+
+.key-button {
+  display: inline-block;
+  background-color: lightgray;
+  border-radius: 9px;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  text-align: center;
+  color: dimgray;
+  font-size: 2vw;
+  border: 1px solid gainsboro;
+}
+
+.key-button h3 {
+  margin: 25%;
+  vertical-align: baseline;
+}
+
 .game-display {
-  margin: 0 auto;
   width: 640px;
   height: 480px;
-  flex: 9;
 }
 
 .game-display:hover {
   cursor: crosshair;
+}
+
+.right-display {
+  width: 20%;
+  color: silver;
+  margin:20px;
+  line-height: 3vw;
 }
 
 .footer {
